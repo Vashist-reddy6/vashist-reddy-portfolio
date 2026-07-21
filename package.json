@@ -9,17 +9,20 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "geist": "1.7.0",
-    "next": "16.2.6",
-    "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "geist": "1.7.2",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.4",
-    "eslint-config-next": "16.2.6",
+    "eslint-config-next": "16.2.10",
     "typescript": "5.9.3"
+  },
+  "overrides": {
+    "postcss": "8.5.10"
   }
 }
